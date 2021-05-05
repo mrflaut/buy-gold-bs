@@ -1,0 +1,52 @@
+.menu {
+	background-color:#D3D3D3;
+	text-align:center;
+}
+body {
+	margin:0;
+	font-family: 'Dela Gothic One', cursive;
+}
+.menu a{
+	text-decoration:none;
+	color:black;
+	font-size:1.5em;
+	padding:3% 5%;
+	height:100%;
+	display:inline-block;
+	transition:0.5s;
+}
+.menu a:hover{
+	background-color:#9400D3;
+	color:white;
+}
+h1 {
+	text-align:center;
+	background:url(img/фонimg.jpg);
+	padding:200px 0;
+	margin:0;
+	color:white;
+}
+.gold {
+	display:flex;
+}
+.goldo {
+	text-align:center;
+	width:100%;
+	background-color:#FFFACD;
+}
+.goldo a{
+	background-color:blue;
+	text-decoration:none;
+	padding:10px;
+	border-radius:10px;
+	color:white;
+}
+.gold img {
+	width:15%;
+}
+.d{
+	flex-direction:row-reverse;
+}
+.otzyvi {
+	background-color:blue;
+}
